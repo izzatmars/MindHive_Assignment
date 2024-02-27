@@ -10,7 +10,7 @@ import json
 app = Flask(__name__)
 
 # Initialize Firebase Admin SDK with service account credentials
-cred = credentials.Certificate("C:/Users/izzat/OneDrive/Desktop/MindHive Assignment/subway-scraper-firebase-adminsdk-y1xwg-647b4207ad.json")
+cred = credentials.Certificate("C:/Users/izzat/OneDrive/Desktop/MindHive Assignment/MindHive_Assignment/subway-scraper-firebase-adminsdk-y1xwg-647b4207ad.json")
 firebase_app = initialize_app(cred)
 db = firestore.client()
 

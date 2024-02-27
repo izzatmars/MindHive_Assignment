@@ -4,7 +4,7 @@ import folium
 from streamlit_folium import folium_static
 
 def fetch_outlets():
-    response = requests.get("http://localhost:5000/outlets")  # Adjust URL as needed
+    response = requests.get("http://127.0.0.1:5000/outlets")  # Adjust URL as needed
     if response.status_code == 200:
         return response.json()
     else:
